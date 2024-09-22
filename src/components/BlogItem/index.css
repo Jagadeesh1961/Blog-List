@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.list-item {
+  list-style-type: none;
+}
+
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-name {
+  font-family: 'Roboto';
+  color: #12022f;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .item-name {
+    font-size: 22px;
+  }
+}
+
+.item-date {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .item-date {
+    font-size: 18px;
+  }
+}
+
+.item-description {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .item-description {
+    font-size: 18px;
+  }
+}
